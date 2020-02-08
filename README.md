@@ -1,4 +1,4 @@
-# Temporizadores virtuales bsados en millis()
+# Temporizadores virtuales basados en la funcion Arduino millis()
   
   ### **Temporizadores versatiles y relativamente precisos basados en millis().**
 
