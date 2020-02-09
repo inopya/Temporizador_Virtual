@@ -11,7 +11,7 @@
 		*nombreTemporizador.begin(tiempoEnMilisegundos) --> carga tiempo en el temporizador y lo inicia.
 	  
 		Si un temporizador esta en marcha no se puede sobreescribir su valor.
-		Debe ser parado previamente o esperar a que acabe apra poder cargarle n nuevo valor.
+		Debe ser parado previamente o esperar a que acabe apra poder cargarle un nuevo valor.
 		* nombreTemporizador.stop() --> detiene el temporizador, pasando su estado a ser 'false'.
 	  
 		* nombreTemporizador.estado() --> retorna un valor booleano: 
