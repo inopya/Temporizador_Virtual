@@ -91,7 +91,7 @@ void setup()
 void loop() 
 {  
 
-  /* Mantener un parpadeo del led onboard con tiempos asimetris de encendido y apagado */
+  /* Mantener un parpadeo del led onboard con tiempos asimetricos de encendido y apagado */
   
   if(duracionCicloParpadeo.estado()==false){
     duracionCicloParpadeo.begin(DURACION_CICLO_PARPADEO);       // tiempo apagado + t. encendido
