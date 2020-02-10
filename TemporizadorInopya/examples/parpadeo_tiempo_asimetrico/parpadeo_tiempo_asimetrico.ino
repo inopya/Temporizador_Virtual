@@ -7,7 +7,7 @@
   ##########################################################
   # ****************************************************** #
   # *            DOMOTICA PARA AFICIONADOS               * #
-  # *    Parpadeo de un led con tiempos asimetrisos      * #
+  # *    Parpadeo de un led con tiempos asimetricos      * #
   # *          Autor:  Eulogio López Cayuela             * #
   # *                                                    * #
   # *       Versión v1.0      Fecha: 07/03/2020          * #
