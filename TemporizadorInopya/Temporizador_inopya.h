@@ -28,7 +28,7 @@ class Temporizador_inopya
   private:
     bool _FLAG_activo = false;
     uint32_t _start_time;
-    uint32_t _last_uptate;
+    uint32_t _last_uptate;		//apoyo al control de _FLAG_overflow
     uint32_t _actual_time;
     uint32_t _end_time;
     bool _FLAG_overflow = false;	//control para temporizadores proximos al desbordamiento de millis()
