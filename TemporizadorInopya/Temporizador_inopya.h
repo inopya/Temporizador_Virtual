@@ -27,11 +27,12 @@ class Temporizador_inopya
   /*  ------ private ------  */              
   private:
     bool _FLAG_activo = false;
-    unsigned long _start_time;
-    unsigned long _last_uptate;
-    unsigned long _actual_time;
-    unsigned long _end_time;
-    bool _FLAG_overflow = false;
+    uint32_t _start_time;
+    uint32_t _last_uptate;
+    uint32_t _actual_time;
+    uint32_t _end_time;
+    bool _FLAG_overflow = false;	//control para temporizadores proximos al desbordamiento de millis()
+    					//y que podrian causar errores (usa _last_uptate)
     
     void _start(uint32_t _tiempo_tarea);  
 };
