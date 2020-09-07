@@ -1,6 +1,6 @@
 # Temporizadores virtuales basados en la funcion Arduino millis()
   
-  ### **Temporizadores versatiles y relativamente precisos basados en millis().**
+  ### **Temporizadores versatiles, NO bloqueantes y relativamente precisos basados en millis().**
 
   
     Para crear un temporizador: --> Temporizador_inopya nombreTemporizador;
